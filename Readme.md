@@ -116,6 +116,3 @@ The system uses Serial communication between ESP8266 and Arduino Mega:
 6. Access the user manual by pressing the "User Manual" button.
 7. Connect with the developer on social media using the icons in the footer.
 
-## Contributing
-
-Feel free to submit issues and enhancement requests! Connect with the developer on [GitHub](https://github.com/Malitha-Gunathilaka), [LinkedIn](https://linkedin.com/in/malithavisada), and other platforms provided in the mobile app footer.
