@@ -60,16 +60,4 @@ Shuttle Rover is a React Native application that controls a robot via an ESP8266
 <!-- ### User Manual
 ![User Manual](screenshots/user_manual.png) -->
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For any questions or feedback, please contact [Malitha Gunathilaka](mailto:malithavisada@gmail.com).
-
-## Acknowledgements
-
-- React Native https://reactnative.dev/ 
-- Axios https://axios-http.com/
-- FontAwesome https://fontawesome.com/
