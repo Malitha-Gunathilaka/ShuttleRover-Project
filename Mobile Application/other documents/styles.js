@@ -4,25 +4,23 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "space-between",
-    padding: 0,
+    padding: 10,
   },
   content: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    paddingHorizontal: 20,
   },
 
   // Header styles for the App header component
   header: {
-    width: "100%",
-    backgroundColor: "#1d4ed8",
+    backgroundColor: "#4361ee",
     padding: 16,
     marginTop: 35,
     alignItems: "center",
     justifyContent: "space-between",
     flexDirection: "row",
-    borderRadius: 10,
+    borderRadius: 15,
     elevation: 8,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
@@ -242,17 +240,4 @@ export const styles = StyleSheet.create({
     margin: 1,
     gap: 20,
   },
-
-  headerControls: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 12,
-  },
-  
-  themeToggle: {
-    padding: 0,
-    borderRadius: 20,
-    backgroundColor: 'rgba(0,0,0,0.2)',
-  },
-
 });

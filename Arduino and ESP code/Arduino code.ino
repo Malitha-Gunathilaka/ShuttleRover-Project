@@ -196,7 +196,7 @@ void runManualMode() {
   int distance = sonar.ping_cm();
   Serial.print("Distance: ");
   Serial.println(distance);
-
+  // Check if an object is detected within 5 cm
   if (distance > 0 && distance < 5) {
     objectDetected = true;
     stopMotors();
@@ -325,7 +325,7 @@ void executeCommand(char command) {
   }
 }
 
-// Motor control functions
+// Motor control functions 
 void moveForward() {
   motor1.run(FORWARD);
   motor2.run(FORWARD);
