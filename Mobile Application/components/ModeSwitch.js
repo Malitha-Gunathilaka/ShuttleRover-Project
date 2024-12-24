@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, Text } from 'react-native';
+import { TouchableOpacity, Text, View } from 'react-native';
 import { styles } from '../styles';
 import { api } from '../services/api';
 
@@ -14,14 +14,16 @@ export const ModeSwitch = ({ isAutoMode, onToggle }) => {
   };
 
   return (
+    <View style={styles.modeSwitchContainer}>
     <TouchableOpacity
-      style={[styles.modeSwitch, { backgroundColor: isAutoMode ? "#4361ee" : "#64748b" }]}
+      style={[styles.modeSwitch, { backgroundColor: isAutoMode ? "#317ce4" : "#317ce4" }]}
       onPress={toggleMode}
       activeOpacity={0.8}
     >
       <Text style={styles.modeSwitchText}>
-        {isAutoMode ? "Auto Mode" : "Manual Mode"}
+        {isAutoMode ? "Manual Mode" : "Auto Mode"}
       </Text>
     </TouchableOpacity>
+  </View>
   );
 };

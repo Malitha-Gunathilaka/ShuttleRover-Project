@@ -21,8 +21,8 @@ export const ThemeToggle = ({ isDarkMode, onToggle, theme }) => {
 const styles = StyleSheet.create({
   themeButton: {
     position: 'absolute',
-    top: 110,
-    right: 16,
-    padding: 4,
+    top: 100,
+    right: 10,
+    padding: 5,
   }
 });
