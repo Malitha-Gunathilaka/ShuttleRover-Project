@@ -71,7 +71,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
-    margin: 15,
+    marginTop: 0,
+    marginBottom: 20,
     elevation: 10,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 4 },
@@ -129,6 +130,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     gap: 15,
     marginVertical: 10,
+    marginTop: 30,
   },
 
   speedButton: {
@@ -153,8 +155,13 @@ export const styles = StyleSheet.create({
   },
 
   // Auto and Manual mode switch styles
+  modeSwitchContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+  },
   modeSwitch: {
     flexDirection: "row",
+    width: 100,
     alignItems: "center",
     justifyContent: "center",
     paddingHorizontal: 10,
@@ -167,7 +174,6 @@ export const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-    minWidth: 110,
   },
   modeSwitchText: {
     color: "#ffffff",
@@ -196,7 +202,7 @@ export const styles = StyleSheet.create({
   },
 
   // user manual button styles for the user manual button
-
+  
   // Counter card styles for the total shuttlecock count
   counterBox: {
     flexDirection: "row",
@@ -206,6 +212,7 @@ export const styles = StyleSheet.create({
     padding: 10,
     elevation: 3,
     margin: 10,
+    marginTop: 20,
     gap: 0,
   },
 
@@ -242,17 +249,29 @@ export const styles = StyleSheet.create({
     margin: 1,
     gap: 20,
   },
-
+  // user manual button styles for the user manual button
   headerControls: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
   },
-  
+
   themeToggle: {
     padding: 0,
     borderRadius: 20,
     backgroundColor: 'rgba(0,0,0,0.2)',
   },
-
+  stopButton: {
+    width: 100,
+    height: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 50,
+    elevation: 5,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    margin: 10,
+  },
 });
