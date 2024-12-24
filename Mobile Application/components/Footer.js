@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, Linking } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { styles } from '../styles';
+import { styles } from "../styles";
 
 export const Footer = ({ theme }) => {
   const openUserManual = () => {
@@ -23,9 +23,9 @@ export const Footer = ({ theme }) => {
         <TouchableOpacity onPress={() => Linking.openURL("https://github.com/Malitha-Gunathilaka")}>
           <Icon name="github" size={20} color="#171515" />
         </TouchableOpacity>
-        <TouchableOpacity style={[styles.userManualButton, { backgroundColor: theme.surface }]} onPress={openUserManual} activeOpacity={0.8}>
+        {/* <TouchableOpacity style={[styles.userManualButton, { backgroundColor: theme.surface }]} onPress={openUserManual} activeOpacity={0.8}>
           <MaterialIcons name="menu-book" size={20} color="#4361ee" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
     </View>
   );
