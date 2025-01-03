@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, useColorScheme, TouchableOpacity } from "react-native";
+import { View, useColorScheme, TouchableOpacity ,StatusBar} from "react-native";
 import { styles } from "./styles";
 import { api } from "./services/api";
 import { Header } from "./components/Header";
@@ -21,7 +21,7 @@ export default function App() {
   const [isAutoMode, setIsAutoMode] = useState(false);
 
   const theme = isDarkMode ? darkTheme : lightTheme;
-
+// Add the useEffect hook to update the totalShuttlecockCount
   useEffect(() => {
     const interval = setInterval(() => {
       api
@@ -34,7 +34,12 @@ export default function App() {
 
   return (
     // Add the theme object to the styles.container
+    // Add the StatusBar component to set the background color of the status bar
+    
+
     <View style={[styles.container, { backgroundColor: theme.background }]}>
+      
+
       {/* Add the Header component here */}
       <Header isAutoMode={isAutoMode} theme={theme} isDarkMode={isDarkMode} />
 

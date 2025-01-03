@@ -3,7 +3,7 @@ import { TouchableOpacity, Text, View } from 'react-native';
 import { styles } from '../styles';
 import { api } from '../services/api';
 
-export const ModeSwitch = ({ isAutoMode, onToggle }) => {
+export const ModeSwitch = ({ isAutoMode, onToggle, theme }) => {
   const toggleMode = () => {
     api.toggleMode(isAutoMode)
       .then(response => {
@@ -15,15 +15,15 @@ export const ModeSwitch = ({ isAutoMode, onToggle }) => {
 
   return (
     <View style={styles.modeSwitchContainer}>
-    <TouchableOpacity
-      style={[styles.modeSwitch, { backgroundColor: isAutoMode ? "#317ce4" : "#317ce4" }]}
-      onPress={toggleMode}
-      activeOpacity={0.8}
-    >
-      <Text style={styles.modeSwitchText}>
-        {isAutoMode ? "Manual Mode" : "Auto Mode"}
-      </Text>
-    </TouchableOpacity>
-  </View>
+      <TouchableOpacity
+        style={[styles.modeSwitch, { backgroundColor: theme.speedButton }]}
+        onPress={toggleMode}
+        activeOpacity={0.8}
+      >
+        <Text style={[styles.modeSwitchText, { color: "#ffffff" }]}>
+          {isAutoMode ? "Manual Mode" : "Auto Mode"}
+        </Text>
+      </TouchableOpacity>
+    </View>
   );
 };

@@ -14,7 +14,7 @@ export const Footer = ({ theme }) => {
     <View style={[styles.footer, { backgroundColor: theme.surface }]}>
       <Text style={[styles.footerText, { color: theme.subtext }]}>© Shuttle Rover 2024</Text>
       <View style={styles.socialIcons}>
-        <TouchableOpacity onPress={() => Linking.openURL("https://facebook.com")}>
+        {/* <TouchableOpacity onPress={() => Linking.openURL("https://facebook.com")}>
           <Icon name="facebook" size={20} color="#3b5998" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => Linking.openURL("https://www.linkedin.com/in/malithavisada/")}>
@@ -22,7 +22,9 @@ export const Footer = ({ theme }) => {
         </TouchableOpacity>
         <TouchableOpacity onPress={() => Linking.openURL("https://github.com/Malitha-Gunathilaka")}>
           <Icon name="github" size={20} color="#171515" />
-        </TouchableOpacity>
+        </TouchableOpacity> */}
+
+        
         {/* <TouchableOpacity style={[styles.userManualButton, { backgroundColor: theme.surface }]} onPress={openUserManual} activeOpacity={0.8}>
           <MaterialIcons name="menu-book" size={20} color="#4361ee" />
         </TouchableOpacity> */}
