@@ -52,24 +52,16 @@ Shuttle Rover is a React Native application that controls a robot via an ESP8266
 ## Screenshots
 
 ### Manual Mode
-![Manual Mode](https://github.com/Malitha-Gunathilaka/ShuttleRover/blob/master/manual%20mode.jpg)
+#### light mode 
+![light Mode](https://github.com/Malitha-Gunathilaka/ShuttleRover-Project/blob/main/Mobile%20Application/manual%20mode.jpg)
 
-### Automatic Mode
-![Automatic Mode](https://github.com/Malitha-Gunathilaka/ShuttleRover/blob/master/Auto%20mode.jpg)
+#### Dark Mode
+![Dark Mode](https://github.com/Malitha-Gunathilaka/ShuttleRover-Project/blob/main/Dark%20mode.jpg)
+
+### User Manual
+![User Manual](https://github.com/Malitha-Gunathilaka/ShuttleRover-Project/blob/main/User%20manual.jpg)
 
 <!-- ### User Manual
 ![User Manual](screenshots/user_manual.png) -->
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-
-For any questions or feedback, please contact [Malitha Gunathilaka](mailto:malithavisada@gmail.com).
-
-## Acknowledgements
-
-- React Native https://reactnative.dev/ 
-- Axios https://axios-http.com/
-- FontAwesome https://fontawesome.com/
