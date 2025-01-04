@@ -27,7 +27,7 @@ const UserManualButton = ({ theme }) => {
         style={[styles.button, { backgroundColor: theme.background }]}
         onPress={openManual}
       >
-        <MaterialIcons name="help-outline" size={26} color={theme.text} />
+        <MaterialIcons name="menu-book" size={24} color={theme.text} />
         <Text style={[styles.buttonText, { color: theme.text }]}>
           {/* User Manual */}
         </Text>
