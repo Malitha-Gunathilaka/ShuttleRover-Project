@@ -4,7 +4,7 @@
 ESP8266WebServer server(80);
 
 // Replace with your network credentials
-const char* ssid = "Shuttle Rover"; 
+const char* ssid = "ShuttleRover"; 
 const char* password = "12345678";
 
 int totalShuttlecockCount = 0; // Variable to store total shuttlecock count
